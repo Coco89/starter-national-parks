@@ -19,6 +19,11 @@ body {
   color: #ffffff;
 }
 
+.header-statement {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
 main {
   padding: 6px;
   display: grid;
@@ -103,6 +108,14 @@ main {
   background: rgba(255, 255, 255, 0.1);
   border: solid 1px rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.5);
+}
+
+.high-rating {
+  color: #3ba17c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 @media screen and (min-width: 600px) {

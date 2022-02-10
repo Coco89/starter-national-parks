@@ -1,5 +1,6 @@
 //SELECTING ELEMENTS ON THE DOM
 
+// query selector
 console.log(document);
 
 const heading = document.querySelector("h1");
@@ -20,6 +21,7 @@ console.log(stat);
 const hello = document.querySelector(".hello");
 console.log(hello);
 
+//query selector all
 const buttons = document.querySelectorAll("button");
 console.log(buttons);
 
