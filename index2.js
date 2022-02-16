@@ -61,13 +61,12 @@ header.appendChild(newElement);
 
 //removing DOM elements
 // Get the parent element of all parks
-const main = document.querySelector("main");
+const main2 = document.querySelector("main");
 
 // Select a single park
-const park = main.querySelector(".park-display");
+const park = main2.querySelector(".park-display");
 
 // Remove that park
-main.removeChild(park);
-
+main2.removeChild(park);
 
 // source: https://github.com/Thinkful-Ed/starter-national-parks/tree/Updating_DOM
